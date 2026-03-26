@@ -16,8 +16,7 @@ public abstract class Employee implements Serializable {
     // Getters
     public String getId() { return id; }
     public String getName() { return name; }
-
-    // Polymorphism: This will be implemented differently by subclasses
+    
     public abstract double calculateSalary();
 
     @Override
