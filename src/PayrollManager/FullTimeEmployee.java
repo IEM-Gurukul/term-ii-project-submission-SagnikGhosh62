@@ -13,7 +13,6 @@ public class FullTimeEmployee extends Employee {
         return baseSalary + bonus;
     }
 
-    // This format is used specifically for saving to the CSV file
     public String toCsvRow() {
         return getId() + "," + getName() + "," + baseSalary + "," + bonus;
     }
